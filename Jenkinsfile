@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-token', url: 'https://github.com/ElderBike4/IntegracionContinuaAWS.git', branch: 'main'
+                git credentialsId: 'github-token', url: 'https://github.com/Angel-CO/IntegracionContinuaAWS.git', branch: 'main'
             }
         }
         stage('Build') {
